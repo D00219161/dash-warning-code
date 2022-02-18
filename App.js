@@ -9,10 +9,10 @@ export default function App() {
       <Text>This is an app that allows you to scan your dashboards warning lights
       and will display back out the information related and why they will fault.</Text>
       <StatusBar style="auto" />
-
     </View>
   );
-  }
+}
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,

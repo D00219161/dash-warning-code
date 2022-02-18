@@ -36,7 +36,7 @@ export default function BottomTabNavigator({ navigation, route }) {
       />
       <BottomTab.Screen
         name="CreateAccount"
-        component={ImageScreen}
+        component={CreateAccount}
         options={{
           title: 'CreateAccount',
           tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-camera" />,
