@@ -5,43 +5,43 @@ const NavBar = () =>{
     return (
         <div>
         <li>
-                <Link to="/App">Home Page</Link>
+                <Link href="/">Home Page</Link>
             </li>
             
             <li>
-                <Link to="/Scan">Scan Dashboard</Link>
+                <Link href="/Scan">Scan Dashboard</Link>
             </li>
             
             <li>
-                <Link to="/Service">Roadside Assistance</Link>
+                <Link href="/Service">Roadside Assistance</Link>
             </li>
 
             <li>
-                <Link to="/OfflineFaults">Most Common Faults</Link>
+                <Link href="/OfflineFaults">Most Common Faults</Link>
             </li>
 
             <li>
-                <Link to="/RedFaults">Red Faults</Link>
+                <Link href="/RedFaults">Red Faults</Link>
             </li>
 
             <li>
-                <Link to="/AmberFaults">Amber Faults</Link>
+                <Link href="/AmberFaults">Amber Faults</Link>
             </li>
 
             <li>
-                <Link to="/GreenBlueFaults">Green & Blue Faults</Link>
+                <Link href="/GreenBlueFaults">Green & Blue Faults</Link>
             </li>
 
             <li>
-                <Link to="/ElectricFaults">Electric & Hybrid Faults</Link>
+                <Link href="/ElectricFaults">Electric & Hybrid Faults</Link>
             </li>
 
             <li>
-                <Link to="/Forum">Q&A Forum</Link>
+                <Link href="/UserAccount">User Account</Link>
             </li>
-
+            
             <li>
-                <Link to="/UserAccount">User Account</Link>
+                <Link href="/Forum">Q&A Forum</Link>
             </li>
         </div>);
 }
